@@ -17,6 +17,7 @@
  */
 
 #include <stdio.h>
+#include <ctype.h>
 #include <htmlstreamparser.h>
 
 HTMLSTREAMPARSER *html_parser_reset(HTMLSTREAMPARSER *hsp) {
